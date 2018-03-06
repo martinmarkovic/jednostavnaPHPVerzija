@@ -1,0 +1,148 @@
+body {
+	background : #97C6FF;
+	background-image:url('slike/b1.gif');
+	background-position:right bottom;
+	color: #000416;
+	font-family: georgia;
+	font-size: 12px;
+	}
+
+#ocjena,#stara { text-align: center; }
+#slider { left: 10%; width: 80%; }
+	
+#header{
+	height: 30px;
+	background-image:url('slike/b1.gif');
+	background-position:left top;
+	text-align: center;
+	font-family: arial;
+	font-size: 24px;
+	border: 3px ridge #EEFFEE;
+}
+
+#menu{
+	background-color: #EEE;
+	position: relative;
+	float:left;
+	width: 15%;
+	height: 500px;
+	border: 3px ridge #EEFFEE;
+	font-family: verdana;
+	font-size: 14px;
+	overflow:auto;
+}
+
+a {	text-decoration:none;
+	color:#000;}
+a:visited {color:#000;}
+
+#linkovi li {
+  display: block;
+  margin: 0;
+  background-color: #EEE;
+  color: #888;
+}
+
+#content{
+	position: relative;
+	left: 20%;
+	height: 100%;
+	width: 62%;
+	margin-top: 15px;
+	overflow:auto;
+	} 
+
+#login{
+	position:relative;
+	width: 550px;
+	}
+
+#slika{
+	float:left;
+	clear: left; 
+	margin: 5px;
+	}
+
+#ziv{
+	position:relative;
+	text-align:justify;
+	width:40%;
+	}
+	
+p{font-size: 16px;}
+
+#forma{} 
+
+.labela{
+	font-family: verdana;
+	color: #000416;	
+	font-size: 12px;
+	}
+	
+.opcija{
+	font-family: arial;
+	background-color: #EEFFEE;
+	color: #552255;	
+	}
+	
+table {	
+	width: 70%;
+	border: 1pt solid #000077;
+	position: relative;
+	left: 1%;
+	top: 10px;
+	overflow:scroll;
+	margin-bottom: 30px;
+	background-color: #FFF;
+}
+td {
+	padding:3px;
+	/*border-bottom:1pt dotted #000077;*/
+	text-align:center;
+}
+th {
+	background-color:#333333;
+	color:#BABABA;
+}
+
+tr.odd {
+	background-color : #FFFFDD;
+}
+
+.oznaceno{
+	background-color: #AAAADD;
+}
+
+.pager{
+	text-align:center;
+	margin-bottom: 25px;
+}	
+
+div#str{
+	text-align:center;
+	margin-bottom: 25px;
+}
+
+/*** set the width and height to match your images **/
+
+#slideshow {
+    position:relative;
+    height:350px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
